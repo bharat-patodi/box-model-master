@@ -53,16 +53,60 @@ Custom Styles
 body {
     font-size: 16px;
     line-height: 1.5;
-    /* margin: 0 auto; */
+    width: 375px;
+    padding: 10px;
 }
 
 h1 {
     font-size: 1.6em;
+    padding: 10px;
+    font-weight: 800;
 }
 
 .rectangle {
-    width: 100px;
-    height: 75px;
     background-color: brown;
+}
+
+.small-rectangle {
+    width: 150px;
+    height: 100px;
     display: inline-block;
+    margin: 15px;
+}
+
+.large-rectangle {
+    /* width: */
+    outline: 15px solid purple;
+    border-top: 15px solid blue;
+    border-bottom: 15px solid gray;
+    border-left: 15px solid yellow;
+    border-right: 15px solid green;
+    margin-left: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+.rectangle1 {
+    display: block;
+    border: 3px solid black;
+}
+
+.rectangle2 {
+    border: 3px double black;
+
+}
+
+.rectangle3 {
+    border: 3px dashed black;
+
+}
+
+.rectangle4 {
+    border: 3px dotted black;
+
+}
+
+.rectangle5 {
+    border: none;
 }
