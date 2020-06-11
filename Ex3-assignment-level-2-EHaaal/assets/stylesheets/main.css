@@ -110,3 +110,7 @@ h1 {
 .rectangle5 {
     border: none;
 }
+
+.upper-rectangle {
+    background-color: blueviolet;
+}
