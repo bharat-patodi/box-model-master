@@ -38,3 +38,119 @@ blockquote:before, blockquote:after, q:before, q:after {
 Custom Styles
 --------------------------------------------------------------- */
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #ecf0f1;
+  /* background-color: black; */
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  display: block;
+}
+
+nav {
+  text-align: center;
+  display: inline;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+nav li, nav a {
+  display: inline;
+  font-weight: 400;
+  font-size: 12px;
+  padding-right: 20px;
+}
+
+nav li:last-child, nav a:last-child {
+  padding-right: 0;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 20px 0 40px 0;
+}
+
+footer, section p {
+  text-transform: none;
+}
+
+.section-01 p {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+main {
+  font-size: 14px;
+}
+
+main a {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+/* ---------------------------------------------------------------
+Section styles
+--------------------------------------------------------------- */
+
+header {
+  padding: 20px 120px 60px 120px;
+}
+
+
+section, footer {
+  padding: 40px 120px;
+}
+
+header {
+  background-color: #2D3040;
+}
+
+.section-01 {
+  background-color: #2d3040;
+  padding-bottom: 150px;
+}
+
+.section-02 {
+  background-color: #4c5c96;
+}
+
+.section-03 {
+  background-color: #45558d;
+}
+
+.section-04 {
+  background-color: #3f4e85;
+}
+
+footer {
+  background-color: #2d3040;
+  color: gray;
+}
