@@ -62,6 +62,7 @@ p {
 .exercise1 {
   text-align: center;
   position: relative;
+  border: 3px solid gray;
 }
 
 .exercise2 {
@@ -78,45 +79,7 @@ p {
   box-shadow: -1px -1px 0 20px #add8e6 inset;
   box-sizing: border-box;
   outline: 20px solid #ed7f80;
-  /* position: relative;
-  z-index: 1; */
 }
-
-.background-square {
-  width: 230px;
-  height: 230px;
-  background-color: black;
-  margin: 0 auto;
-  position: absolute;
-
-}
-
-/*
-.square::before {
-  content: "Hi";
-  width: 220px;
-  height: 220px;
-  background-color: #add8e6;
-  position: absolute;
-  top: 10;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: -3;
-} */
-/*
-.square::after {
-  content: "Ho";
-  width: 220px;
-  height: 220px;
-  background-color: #ed7f80;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 20;
-  z-index: -1;
-} */
 
 .legend > *{
   display: inline-block;
